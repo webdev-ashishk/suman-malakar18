@@ -3,7 +3,7 @@ import Link from "next/link";
 
 async function getLatestPostData() {
   const apiUrl =
-    process.env.NEXT_API_URL || "https://suman-malkar-next.vercel.app";
+    process.env.NEXT_API_URL || "https://suman-malakar18.vercel.app";
   const res = await fetch(`${apiUrl}/api/posts`);
   if (!res.ok) {
     throw new Error("Failed to fetch data");
