@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+.light {
+  color: black;
+  background-color: rgba(220, 216, 216, 0.677);
+}
+
+.dark {
+  color: white;
+  background: #081424;
+}
+
+/* styles/scrollbar.css */
+
+/* Track */
+::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 60px;
+  background-color: rgba(0, 0, 139, 0.256);
+}
+::-webkit-scrollbar-track {
+  width: 8px;
+  border-radius: 60px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  /* background-color: #888; */
+
+  border-radius: 6px; /* Optional: Add border-radius for rounded corners */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    to right,
+    rgba(255, 192, 203, 0.473),
+    rgba(0, 0, 255, 0.416)
+  );
+}
