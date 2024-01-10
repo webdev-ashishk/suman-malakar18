@@ -15,12 +15,12 @@ const Body = () => {
           alt="post-image"
           className="h-full w-full object-cover absolute mix-blend-overlay"
         ></Image>
-        <div className="font-bold text-3xl p-2 w-full flex flex-col justify-center items-center">
-          <h1 className="text-green-500 md:text-6xl sm:text-2xl">
-            Welcome to Awesome place@
+        <div className="font-bold p-2 w-full flex flex-col justify-center items-center">
+          <h1 className="text-white md:text-5xl sm:text-2xl">
+            Welcome to Awesome place
           </h1>
           <h2 className="text-blue-500 md:text-3xl sm:text-1xl">
-            wow wow wo wo wow owo
+            Experience is the name everyone gives to their mistakes
           </h2>
         </div>
       </div>
