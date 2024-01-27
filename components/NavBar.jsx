@@ -36,13 +36,8 @@ const NavBar = () => {
     <>
       <div className="flex justify-between  sticky top-0 border-b border-b-gray-500 shadow-lg">
         <div className="flex  gap-4 text-5xl m-2 font-bold ">
-          <button onClick={() => setMenu(false)}>
-            {/* <button type="button" onClick={() => router.push("/")}> */}
-
-            <Link href="/">
-              <RiComputerFill />
-            </Link>
-            {/* </button> */}
+          <button onClick={() => router.push("/")} title="desktop icons">
+            <RiComputerFill />
           </button>
           <div className="sm:block lg:hidden md:hidden text-3xl mt-2">
             <DarkLightSwitch />
