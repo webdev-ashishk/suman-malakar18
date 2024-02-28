@@ -2,10 +2,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import LatestPost from "../app/latestPost/page";
+import Meta from "./Meta";
 
 const Body = () => {
   return (
     <main>
+      {/* header tags */}
+      <Meta
+        title="suman"
+        site_name="suman malakar 18"
+        url="https://suman-malakar18.vercel.app"
+        description="This website organized the content of creator and also helped student to follow the content in unique place"
+        image="https://www.springboard.com/blog/wp-content/uploads/2022/09/programmng-language.jpg"
+      />
       {/* hero section  */}
       <div className="flex justify-center items-center w-full h-96 relative bg-gradient-to-tl from-purple-900 to green-700 -z-10 ">
         <Image

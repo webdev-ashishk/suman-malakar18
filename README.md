@@ -10,3 +10,13 @@
 > 8. Overlay on Hero section - done
 > 9. fixed nav bar issue (using context api) ?
 > 10. work with hamburger icons (with responsive design) ?
+> 11. How we can add open graph in our head section of a website
+
+```
+<meta property="og:title" content=suman>
+<meta property="og:site_name" content=suman malakar 18>
+<meta property="og:url" content=https://suman-malakar18.vercel.app>
+<meta property="og:description" content=This website organized the content of creator and also helped student to follow the content in unique place >
+<meta property="og:type" content="">
+<meta property="og:image" content=https://www.springboard.com/blog/wp-content/uploads/2022/09/programmng-language.jpg>
+```
