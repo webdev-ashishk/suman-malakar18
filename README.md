@@ -1,4 +1,4 @@
-# Created website using Below Technology
+# List of used Technology
 
 > 1. Frontend: Next.js, React.js, JavaScript, CSS ,Tailwind CSS
 > 2. Backend: Next.js API routes, Node.js
